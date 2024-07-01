@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    font-size: 18px;
+}
+#links a{
+    margin: 0 16px;
+    color: white;
+    text-decoration: none;
+}
+#links a:hover{
+    border-bottom: 2px solid goldenrod;
+}
