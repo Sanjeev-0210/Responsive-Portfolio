@@ -1,4 +1,5 @@
 import '../Styles/LandingPage.css'
+import Home from './Home';
 const LandingPage = () => {
     return ( 
         <div className="landingpage">
@@ -14,7 +15,7 @@ const LandingPage = () => {
             </div>
         </div>
         <div className="container">
-            <h1>Body</h1>
+            <div id='home'><Home/></div>
         </div>
         </div>
      );

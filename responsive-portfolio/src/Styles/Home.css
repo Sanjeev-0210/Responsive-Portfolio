@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+    text-align: left;
+    font-size: 20px;
+}
+.content h1{
+    font-size: 60px;
+}
+.content span,h5{
+    color: goldenrod;
+}
+#img img{
+    text-shadow: 0 0 10px white;
+}
