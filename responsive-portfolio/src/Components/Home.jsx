@@ -26,9 +26,15 @@ const Home = () => {
     return ( 
         <div className="home">
             <div className="content">
+                <div>
                 <h5>Hello!</h5>
                 <h1>I'm <span>Sanjeev</span></h1>
-                <h3><span className="text sec-text">Software Developer</span></h3>
+                <h3><span className="text sec-text">Software </span>Developer</h3>
+                </div>
+                <div>
+                    <button>Hire me</button>
+                    <button>About me</button>
+                </div>
             </div>
             <div id="img">
                 <img src={Image} alt="" height='600vh'/>
