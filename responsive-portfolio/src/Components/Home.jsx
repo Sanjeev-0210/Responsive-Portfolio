@@ -33,11 +33,11 @@ const Home = () => {
                 </div>
                 <div>
                     <button>Hire me</button>
-                    <button>About me</button>
+                    <button id='btn2'>About me</button>
                 </div>
             </div>
             <div id="img">
-                <img src={Image} alt="" height='600vh'/>
+                <img src={Image} alt="" height='650vh'/>
             </div>
         </div>
      );
