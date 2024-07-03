@@ -22,6 +22,7 @@ const LandingPage = () => {
             <div id="about"><About/></div>
             <hr className='line'/>
             <div id='resume'><Resume/></div>
+            <hr className='line'/>
         </div>
         </div>
      );
