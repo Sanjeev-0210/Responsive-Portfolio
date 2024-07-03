@@ -7,12 +7,10 @@
     text-shadow: 10px 15px 0 rgb(98, 97, 97);
     margin: 30px 0 50px;
 }
-.resume i{
-    width: 50%;
-}
 .resume #container{
     display: grid;
     grid-template-columns: 560px 560px;
+    margin: 20px 0;
 }
 .resume #container div{
     border: none;

@@ -2,6 +2,7 @@ import '../Styles/LandingPage.css'
 import About from './About';
 import Home from './Home';
 import Resume from './Resume';
+import Skills from './Skills';
 const LandingPage = () => {
     return ( 
         <div className="landingpage">
@@ -11,7 +12,7 @@ const LandingPage = () => {
                 <a href='#home'>Home</a>
                 <a href='#about'>About</a>
                 <a href='#resume'>Resume</a>
-                <a href=''>Skills</a>
+                <a href='#skills'>Skills</a>
                 <a href=''>Projects</a>
                 <a href=''>Contact</a>
             </div>
@@ -22,6 +23,8 @@ const LandingPage = () => {
             <div id="about"><About/></div>
             <hr className='line'/>
             <div id='resume'><Resume/></div>
+            <hr className='line'/>
+            <div id="skills"><Skills/></div>
             <hr className='line'/>
         </div>
         </div>
