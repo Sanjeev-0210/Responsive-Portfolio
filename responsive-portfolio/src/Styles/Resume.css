@@ -1,0 +1,59 @@
+.resume{
+    /* height: 100vh; */
+    padding: 30px;
+}
+.resume h1{
+    font-size: 40px;
+    text-shadow: 10px 15px 0 rgb(98, 97, 97);
+    margin: 30px 0 50px;
+}
+.resume i{
+    width: 50%;
+}
+.resume #container{
+    display: grid;
+    grid-template-columns: 560px 560px;
+}
+.resume #container div{
+    border: none;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    line-height: 1.7em;
+}
+.resume #container h2{
+    color: goldenrod;
+    font-size: 25px;
+}
+.resume #container span{
+    font-family: monospace;
+    margin: 15px 70px 15px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.resume #container p{
+    color: rgb(144, 142, 142);
+}
+.resume a{
+    text-decoration: none;
+}
+.resume button{
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 43%;
+    cursor: pointer;
+}
+.resume button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
