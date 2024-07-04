@@ -1,5 +1,7 @@
 import '../Styles/Project.css'
+
 const Project = () => {
+
     return ( 
         <div className="project">
             <h1>My Projects</h1>
