@@ -1,6 +1,7 @@
 import '../Styles/LandingPage.css'
 import About from './About';
 import Home from './Home';
+import Project from './Project';
 import Resume from './Resume';
 import Skills from './Skills';
 const LandingPage = () => {
@@ -26,6 +27,7 @@ const LandingPage = () => {
             <hr className='line'/>
             <div id="skills"><Skills/></div>
             <hr className='line'/>
+            <div id="projects"><Project/></div>
         </div>
         </div>
      );
