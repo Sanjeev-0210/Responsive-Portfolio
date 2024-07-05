@@ -1,6 +1,7 @@
 .contact{
     /* height: 100vh; */
     padding: 50px;
+    padding-bottom: 0;
 }
 .contact h1{
     font-size: 40px;

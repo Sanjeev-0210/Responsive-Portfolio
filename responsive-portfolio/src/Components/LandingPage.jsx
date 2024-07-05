@@ -1,6 +1,7 @@
 import '../Styles/LandingPage.css'
 import About from './About';
 import Contact from './Contact';
+import Footer from './Footer';
 import Home from './Home';
 import Project from './Project';
 import Resume from './Resume';
@@ -31,6 +32,8 @@ const LandingPage = () => {
             <div id="projects"><Project/></div>
             <hr className='line'/>
             <div id="contact"><Contact/></div>
+            <hr className='line'/>
+            <div id="footer"><Footer/></div>
         </div>
         </div>
      );
