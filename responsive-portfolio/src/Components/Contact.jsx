@@ -14,14 +14,18 @@ const Contact = () => {
             <h1>Contact Me</h1>
             <i>~Let's Connect</i>
             <div id="content">
-                <div><LocationOnIcon />
+                <div><LocationOnIcon className='icon'/>
+                <h3>ADDRESS</h3>
                     <p>TN, India</p> </div>
-                <div><PhoneIcon />
+                <div><PhoneIcon className='icon'/>
+                <h3>CONTACT NUMBER</h3>
                     <p>+91-9500366015</p></div>
-                <div><EmailIcon />
+                <div><EmailIcon className='icon'/>
+                <h3>EMAIL ADDRESS</h3>
                     <p>sanjeev0210c@gmail.com</p></div>
-                <div><LanguageIcon />
-                    <p>Portfolio.</p></div>
+                <div><LanguageIcon className='icon'/>
+                <h3>WEBSITE</h3>
+                    <a href='https://sanjeev0210c-portfolio.netlify.app/' target='blank' style={{color:"grey"}}>Portfolio.</a></div>
             </div>
         </div>
     );
