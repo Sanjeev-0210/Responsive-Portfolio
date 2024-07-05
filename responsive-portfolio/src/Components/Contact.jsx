@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import '../Styles/Contact.css'
+import Image2 from '../Images/Image2.png'
 
 const Contact = () => {
     return (
@@ -26,6 +27,20 @@ const Contact = () => {
                 <div><LanguageIcon className='icon'/>
                 <h3>WEBSITE</h3>
                     <a href='https://sanjeev0210c-portfolio.netlify.app/' target='blank' style={{color:"grey"}}>Portfolio.</a></div>
+            </div>
+            <div id="msg-box">
+                <div id="img">
+                    <img src={Image2} alt="" />
+                </div>
+                <div id="msg">
+                    <form action="">
+                    <input type="text" placeholder='Your Name' required/> <br />
+                    <input type="text" placeholder='Your Email' required/> <br />
+                    <input type="text" placeholder='Subject' required/> <br />
+                    <textarea cols="55" rows="10" placeholder='Message...' required/> <br />
+                    <button>Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     );
