@@ -14,8 +14,8 @@ const LandingPage = () => {
                 <a href='#about'>About</a>
                 <a href='#resume'>Resume</a>
                 <a href='#skills'>Skills</a>
-                <a href=''>Projects</a>
-                <a href=''>Contact</a>
+                <a href='#projects'>Projects</a>
+                <a href='#contact'>Contact</a>
             </div>
         </div>
         <div className="container">
