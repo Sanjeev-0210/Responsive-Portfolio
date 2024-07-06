@@ -22,15 +22,10 @@ const LandingPage = () => {
         </div>
         <div className="container">
             <div id='home'><Home/></div>
-            <hr className='line'/>
             <div id="about"><About/></div>
-            <hr className='line'/>
             <div id='resume'><Resume/></div>
-            <hr className='line'/>
             <div id="skills"><Skills/></div>
-            <hr className='line'/>
             <div id="projects"><Project/></div>
-            <hr className='line'/>
             <div id="contact"><Contact/></div>
             <hr className='line'/>
             <div id="footer"><Footer/></div>

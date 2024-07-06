@@ -1,3 +1,4 @@
+// import { Link } from 'react-router-dom';
 import Image from '../Images/Image.png'
 import '../Styles/Home.css'
 
@@ -34,6 +35,7 @@ const Home = () => {
                 <div>
                     <button>Hire me</button>
                     <button id='btn2'>About me</button>
+                    {/* <button id='btn2'><Link to='/about'>About me</Link></button> */}
                 </div>
             </div>
             <div id="img">

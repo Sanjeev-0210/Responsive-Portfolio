@@ -8,6 +8,9 @@
     color: white;
     margin: 0 20px;
 }
+.footer a:hover{
+    color: goldenrod;
+}
 .footer div{
     margin: 10px 0;
 }
