@@ -64,3 +64,19 @@
     text-decoration: none;
     color: white;
 }
+@media (max-width:800px) {
+    .project{
+        height: max-content;
+        padding: 30px 15px;
+    }
+    .project #container div{
+        display: block;
+    }
+    .project #container #foodcart,.project #container #busapp,.project #container #portfolio,.project #container #audi{ 
+        height: 280px;
+        width: 100%;
+        margin: 20px 0;
+        background-position: unset;
+    }
+
+}
