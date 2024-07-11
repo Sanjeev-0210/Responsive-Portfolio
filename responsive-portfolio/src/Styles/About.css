@@ -31,3 +31,23 @@
     background-color: transparent;
     color: white;
 }
+@media (max-width:800px) {
+    .about{
+        height: max-content;
+        padding: 20px;
+    }
+    .about h2{
+        font-size: 35px;
+        text-shadow: 10px 15px 0 rgb(98, 97, 97);
+        margin: 30px 0;
+    }
+    .about p,ul,h3{
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .about button{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+}
