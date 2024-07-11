@@ -49,5 +49,7 @@
     .about button{
         padding: 7px 15px;
         font-size: 14px;
+        position: relative;
+        left: 30%;
     }
 }
