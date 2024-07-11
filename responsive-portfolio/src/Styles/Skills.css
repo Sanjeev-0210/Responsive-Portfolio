@@ -67,3 +67,20 @@
     background-color: goldenrod;
     border-radius: 5px;
 }
+@media (max-width:800px) {
+    .skills{
+        height: max-content;
+        padding: 30px 0;
+    }
+    .skills h1{
+        font-size: 35px;
+        text-shadow: 10px 15px 0 rgb(98, 97, 97);
+        margin: 30px 0;
+    }
+    .skills #container{
+        display: grid;
+        grid-template-columns: 175px 175px;
+        justify-content: space-around;
+        margin: 50px 0;
+    }
+}
