@@ -40,10 +40,14 @@
     background-color: rgb(20, 19, 19);
     padding: 50px 50px 0;
     height: 500px;
+    background-image: url('../Images/Image2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
 }
-#msg-box img{
+/* #msg-box img{
     height: 500px;
-} 
+}  */
 #msg-box #msg{
     background-color: white;
     text-align: left;
@@ -69,4 +73,53 @@
     border: 1px solid goldenrod;
     background-color: transparent;
     color: rgb(0, 0, 0);
+}
+@media (max-width:800px) {
+    .contact{
+        height: max-content;
+        padding: 30px 0;
+        padding-bottom: 0;
+    }
+    .contact h1{
+        font-size: 35px;
+        margin: 30px 0;
+    }
+    .contact #content .icon{
+        padding: 15px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    .contact #content{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .contact #content div h3{
+        text-align: center;
+        font-size: 12px;
+    }
+    #msg-box{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        height: max-content;
+        margin: 50px 10px;
+    }
+    #msg-box #img{
+        height: 300px;
+        width: 252px;
+    }
+    #msg-box #msg{
+        padding: 24px;
+    }
+    #msg-box #msg input,textarea{
+        padding: 10px;
+        margin: 7px 0;
+    }
+    #msg-box #msg button{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
 }
