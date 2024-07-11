@@ -67,7 +67,7 @@
     background-color: goldenrod;
     border-radius: 5px;
 }
-@media (max-width:800px) {
+@media (max-width:800px),(max-width:1400px) {
     .skills{
         height: max-content;
         padding: 30px 0;
