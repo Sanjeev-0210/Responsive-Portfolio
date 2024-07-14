@@ -24,7 +24,7 @@ const LandingPage = () => {
     return (
         <div className="landingpage">
             <div className="navbar">
-                <div id='logo'><h2>sanjeev.</h2></div>
+                <div id='logo'><h2><a href="#home">sanjeev.</a></h2></div>
                 <div id='links'>
                     <a href='#home'>Home</a>
                     <a href='#about'>About</a>
