@@ -4,6 +4,8 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LanguageIcon from '@mui/icons-material/Language';
 import '../Styles/Contact.css'
 // import Image2 from '../Images/Image2.png'
+import {useState} from 'react'
+import axios from 'axios'
 
 const Contact = () => {
 
