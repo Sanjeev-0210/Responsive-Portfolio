@@ -6,6 +6,27 @@ import '../Styles/Contact.css'
 // import Image2 from '../Images/Image2.png'
 
 const Contact = () => {
+
+    let[name,setname] = useState('')
+    let[email,setemail] = useState('')
+    let[subject,setsubject] = useState('')
+    let[message,setmessage] = useState('')
+
+    let data = [name,email,subject,message]
+
+    function sendmail(e){
+        e.preventDefault();
+        axios.post(`http://localhost:8080/api/send-mail`,data)
+        .then((res)=>{
+            console.log(res.data);
+            alert('Mail Sent Successfully!!!')
+        })
+        .catch((err)=>{
+            console.log(err);
+            alert('Error Occured, Please Enter the valid Message!!!')
+        })
+    }
+
     return (
         <div className="contact">
             <h1>Contact Me</h1>
@@ -29,11 +50,11 @@ const Contact = () => {
                     {/* <img src={Image2} alt="" /> */}
                 </div>
                 <div id="msg">
-                    <form action="">
-                    <input type="text" placeholder='Your Name' required/> <br />
-                    <input type="text" placeholder='Your Email' required/> <br />
-                    <input type="text" placeholder='Subject' required/> <br />
-                    <textarea cols="55" rows="10" placeholder='Message...' required/> <br />
+                    <form onSubmit={sendmail}>
+                    <input value={name} onChange={e=>{setname(e.target.value)}} type="text" placeholder='Your Name' required/> <br />
+                    <input value={email} onChange={e=>{setemail(e.target.value)}} type="text" placeholder='Your Email' required/> <br />
+                    <input value={subject} onChange={e=>{setsubject(e.target.value)}} type="text" placeholder='Subject' required/> <br />
+                    <textarea value={message} onChange={e=>{setmessage(e.target.value)}} cols="55" rows="10" placeholder='Message...' required/> <br />
                     <button>Send Message</button>
                     </form>
                 </div>
