@@ -51,8 +51,8 @@ const Resume = () => {
                     <h2>Jul 2024 - Present</h2>
                     <h3>Software Developer</h3>
                     <p><span>Codentrix Technologies, Chennai</span> <br />
-                        Through my professional course in Java Full Stack Development, I gained proficiency in front-end technologies like HTML, CSS, and JavaScript, alongside back-end skills in Java,
-                        Spring Boot, and database management, enabling me to develop robust and scalable web applications.</p>
+                        During my internship, Developed web pages with HTML, CSS, and JavaScript, and back-end services with Python and .NET. Managed MySQL databases and used Git for version control. 
+                        Contributed to projects like an inventory management system and an e-commerce platform.</p>
                 </div>
             </div>
             <a href={cv} download="Sanjeev_CV.pdf"><button>Download CV <CloudDownloadIcon style={{ height: "20px" }} /></button></a>
