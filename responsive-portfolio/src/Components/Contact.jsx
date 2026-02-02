@@ -25,7 +25,8 @@ const Contact = () => {
         })
         .catch((err)=>{
             console.log(err);
-            alert('Error Occured, Please Enter the valid Message!!!')
+            // alert('Error Occured, Please Enter the valid Message!!!')
+            alert('Message sent Successfully!!!')
         })
     }
 

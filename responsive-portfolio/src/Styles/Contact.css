@@ -109,7 +109,9 @@
     }
     #msg-box #img{
         height: 300px;
-        width: 252px;
+        width: 232px;
+        background-image: url('../Images/20260202_181836.png');
+        background-position: center;
     }
     #msg-box #msg{
         padding: 24px;
