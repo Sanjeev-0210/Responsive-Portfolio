@@ -27,7 +27,7 @@
     background-color: rgb(71, 70, 70);
     border-radius: 5px;
 }
-.skills .se-line #java,#react,#sql{
+.skills .se-line #java,#react,#sql,#powerautomate{
     position: relative;
     right: 10px;
     height: 12px;
@@ -35,7 +35,7 @@
     background-color: goldenrod;
     border-radius: 5px;
 }
-.skills .se-line #javascript,#spring{
+.skills .se-line #javascript,#spring,#powerapps{
     position: relative;
     right: 10px;
     height: 12px;

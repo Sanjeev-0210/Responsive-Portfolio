@@ -48,11 +48,17 @@ const Resume = () => {
                         Spring Boot, and database management, enabling me to develop robust and scalable web applications.</p>
                 </div>
                 <div>
-                    <h2>Jul 2024 - Present</h2>
+                    <h2>Jul 2024 - Nov 2024</h2>
                     <h3>Software Developer</h3>
                     <p><span>Codentrix Technologies, Chennai</span> <br />
                         During my internship, Developed web pages with HTML, CSS, and JavaScript, and back-end services with Python and .NET. Managed MySQL databases and used Git for version control. 
                         Contributed to projects like an inventory management system and an e-commerce platform.</p>
+                </div>
+                <div>
+                    <h2>Nov 2024 - Present</h2>
+                    <h3>Systems Engineer</h3>
+                    <p><span>Infosys</span> <br />
+                        Develop and customize business applications using Microsoft Dynamics 365 and .NET, ensuring scalable and efficient solutions. Collaborate with teams to design, implement, and maintain enterprise-level features.</p>
                 </div>
             </div>
             <a href={cv} download="Sanjeev_CV.pdf"><button>Download CV <CloudDownloadIcon style={{ height: "20px" }} /></button></a>

@@ -40,14 +40,14 @@
     background-color: rgb(20, 19, 19);
     padding: 50px 50px 0;
     height: 500px;
-    background-image: url('../Images/Image2.png');
+    /* background-image: url('../Images/20260202_181836.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
 }
-/* #msg-box img{
+#msg-box img{
     height: 500px;
-}  */
+} 
 #msg-box #msg{
     background-color: white;
     text-align: left;

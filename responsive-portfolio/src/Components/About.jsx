@@ -6,13 +6,13 @@ const About = () => {
     return (
         <div className="about">
             <h2>About Me</h2>
-            <p>As a recent graduate with a strong foundation in Java Full Stack Development, I am eager to start my career in the tech industry. My academic background and hands-on project experience have equipped me with the skills necessary to build and maintain dynamic web applications.
+            <p>As a tech professional with a strong foundation in Microsoft Dynamics 365, Power Platform, and Full Stack Development, I focus on building scalable, reliable, and business-driven applications. My academic background and hands-on experience have equipped me with the skills to design, develop, and maintain modern business and web applications.
             </p>
                 <h3>Skills:</h3>
                 <ul>
-                    <li><b>Programming Languages: </b> Java, JavaScript, Python</li>
-                    <li><b>Front-End Technologies: </b> HTML, CSS, ReactJS</li>
-                    <li><b>Back-End Technologies: </b> Spring Boot, RESTful APIs</li>
+                    <li><b>Programming Languages: </b> Java, C#, JavaScript, Python</li>
+                    <li><b>Front-End Technologies: </b> HTML, CSS, ReactJS, Angular</li>
+                    <li><b>Back-End Technologies: </b> ASP.Net, Spring Boot, RESTful APIs</li>
                     <li><b>Database Management: </b> MySQL</li>
                     <li><b>Version Control: </b> Git</li>
                 </ul>

@@ -3,7 +3,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LanguageIcon from '@mui/icons-material/Language';
 import '../Styles/Contact.css'
-// import Image2 from '../Images/Image2.png'
+import Image2 from '../Images/20260202_181836.png'
 import {useState} from 'react'
 import axios from 'axios'
 
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div id="msg-box">
                 <div id="img">
-                    {/* <img src={Image2} alt="" /> */}
+                    <img src={Image2} alt="" />
                 </div>
                 <div id="msg">
                     <form onSubmit={sendmail}>

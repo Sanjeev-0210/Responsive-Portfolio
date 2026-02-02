@@ -7,7 +7,7 @@ const Skills = () => {
             <div id="container">
             <div>
                 <div className="fe-content">
-                    <h3>Java</h3>
+                    <h3>Java & C#</h3>
                     <h3>80%</h3>
                 </div>
                 <div className="se-line">
@@ -27,6 +27,24 @@ const Skills = () => {
             </div>
             <div>
                 <div className="fe-content">
+                    <h3>Power Apps</h3>
+                    <h3>85%</h3>
+                </div>
+                <div className="se-line">
+                    <div id='powerapps'></div>
+                </div>
+            </div>
+            <div>
+                <div className="fe-content">
+                    <h3>Power Automate</h3>
+                    <h3>80%</h3>
+                </div>
+                <div className="se-line">
+                    <div id='powerautomate'></div>
+                </div>
+            </div>
+            <div>
+                <div className="fe-content">
                     <h3>HTML & CSS</h3>
                     <h3>90%</h3>
                 </div>
@@ -36,7 +54,7 @@ const Skills = () => {
             </div>
             <div>
                 <div className="fe-content">
-                    <h3>ReactJS</h3>
+                    <h3>ReactJS & Angular</h3>
                     <h3>80%</h3>
                 </div>
                 <div className="se-line">
@@ -54,7 +72,7 @@ const Skills = () => {
             </div>
             <div>
                 <div className="fe-content">
-                    <h3>SpringBoot</h3>
+                    <h3>SpringBoot & ASP.Net</h3>
                     <h3>85%</h3>
                 </div>
                 <div className="se-line">

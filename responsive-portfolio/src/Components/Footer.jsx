@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="https://wa.me/qr/FEJLL43N4Y3YI1" target="_blank" rel="noreferrer"><WhatsAppIcon className='icon' /></a>  
             </div>
             <div id="copyright">
-            <span>Copyright &copy; 2024 SanjeevC0210. All rights reserved.</span>
+            <span>Copyright &copy; 2026 SanjeevC0210. All rights reserved.</span>
             </div>
         </div>
      );
